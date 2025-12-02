@@ -52,9 +52,7 @@ class CreateArticle extends Component
 
     public function render()
     {
-        return view('livewire.create-article', [
-            'categories' => Category::all()
-        ]);
+        return view('livewire.create-article');
     }
 
 }
